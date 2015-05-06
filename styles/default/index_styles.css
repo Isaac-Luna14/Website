@@ -1,0 +1,178 @@
+div#haulOut {
+    overflow: hidden;
+    padding: 0;
+}
+    img.haulingOut {
+        margin-top: -15%;
+        min-width: 900px;
+    }
+    div#dots {
+        position: relative;
+        min-width: 900px;
+        background: -webkit-radial-gradient(rgba(171, 171, 171, 0.5) 0%, rgba(171, 171, 171, 0.5) 22%, rgba(0,0,0,0) 27%), -webkit-radial-gradient(rgba(171, 171, 171, 0.5) 0%, rgba(171, 171, 171, 0.5) 21%, rgba(0,0,0,0) 26%);
+        background: -moz-radial-gradient(rgba(171, 171, 171, 0.5) 0%, rgba(171, 171, 171, 0.5) 22%, rgba(0,0,0,0) 27%), -moz-radial-gradient(rgba(171, 171, 171, 0.5) 0%, rgba(171, 171, 171, 0.5) 21%, rgba(0,0,0,0) 26%);
+        background: -o-radial-gradient(rgba(171, 171, 171, 0.5) 0%, rgba(171, 171, 171, 0.5) 22%, rgba(0,0,0,0) 27%), -o-radial-gradient(rgba(171, 171, 171, 0.5) 0%, rgba(171, 171, 171, 0.5) 21%, rgba(0,0,0,0) 26%);
+        background: radial-gradient(rgba(171, 171, 171, 0.5) 0%, rgba(171, 171, 171, 0.5) 22%, rgba(0,0,0,0) 27%), radial-gradient(rgba(171, 171, 171, 0.5) 0%, rgba(171, 171, 171, 0.5) 21%, rgba(0,0,0,0) 26%);
+        background-size: 3px 3px, 5px 5px;
+        background-repeat: repeat;
+    }
+
+.div {
+    min-height: 500px;
+    min-width: 900px;
+    padding-top: 85px;
+}
+div#about {}
+    div#about table#AboutTheTable {
+        width: 100%;
+    }
+        div#about table#AboutTheTable tbody tr td.tdtd {
+            min-height: 360px;
+            min-width: 300px;
+            width: 33%;
+        }
+            div#about table#AboutTheTable tbody tr td.tdtd p {
+                text-align: justify;
+                margin: 20px;
+            }
+div#team {}
+    div#team table#TeamTheTable {
+        height: 50px;
+        width: 100%;
+    }
+        div#team table#TeamTheTable tbody tr td {
+            width: 33%;
+        }
+    div#team ul {}
+        div#team ul li {
+            list-style-type: none;
+            width: 30%;
+            height: 30%;
+            margin-left: 1%;
+            display: inline-block;
+        }
+            div#team ul li img.profilePic {
+                max-height: 90%;
+                height: auto;
+                max-width: 45%;
+                width: auto;
+                border-radius: 450%;
+                display: inline-block;
+                float:left; 
+
+                border: 4px solid white;
+                box-shadow: 0px 0px 10px 0px white;
+                -webkit-transition: 500ms ease-out;
+                -moz-transition:    500ms ease-out;
+                -o-transition:      500ms ease-out;
+                transition:         500ms ease-out;
+            }
+                div#team ul li img.profilePic:hover {
+                    border: 4px solid silver;
+                    box-shadow: 0px 0px 5px 0px silver;
+                    -webkit-transition: 500ms ease-out;
+                    -moz-transition:    500ms ease-out;
+                    -o-transition:      500ms ease-out;
+                    transition:         500ms ease-out;
+		    transform: scale(1.25, 1.25);
+ 			-moz-transform: scale(1.25, 1.25);
+		    -ms-transform: scale(1.25, 1.25);
+		    -webkit-transform: scale(1.25, 1.25);
+		    -o-transform: scale(1.25, 1.25);
+        }
+        .profileH1 {
+            display: inline-block;
+            float: right; 
+            width: 50%;
+        }
+        .profileH2 {
+            display: inline-block;
+            float: right; 
+            width: 50%;
+        }
+div#contact {}
+    div#contact table#ContactTheTable {
+        width: 33%;
+    }
+        div#contact table#ContactTheTable tr td {
+            width: 33%;
+        }
+    div#contact form#formers {
+        width: 100%;
+        position: relative;
+        margin: auto;
+    }
+        div#contact form#formers .forming {
+            margin-top: 10px;
+            padding: 4px;
+            border: 1px solid black;
+            border-radius: 5px;
+            height: 20px;
+            width: 200px;
+            color: black;
+            display: block;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+            div#contact form#formers .forming:focus {
+                outline: none;
+                border: 1px solid silver;
+            }
+        div#contact form#formers textarea#message {
+            height: 100px;
+            resize: none;
+        }
+        div#contact form#formers input#submit {
+            background: white;
+            color: black;
+            height: 30px;
+            width: 210px;
+        }
+            div#contact form#formers input#submit:hover {
+                background: #dedede;
+            }
+
+div#social {}
+    div#social table#SocialTheTable {}
+        div#social table#SocialTheTable tr td {
+            width: 33%;
+        }
+    div#social div#parallaxism {
+        background: url('../../images/montreal-skyline.jpg');
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+    }
+    div#social table#socialIcons {
+        width: 225px;
+        display: block;
+        margin: auto;
+    }
+        .socialIconos {}
+            .socialIconos a .socialIMG {
+                background: white;
+                border-radius: 50%;
+                height: 35px;
+                width: 35px;
+                -webkit-transition: 500ms ease-out;
+                -moz-transition:    500ms ease-out;
+                -o-transition:      500ms ease-out;
+                transition:         500ms ease-out;
+            }
+                .socialIconos a .socialIMG:hover {
+                    background: #f2f2f2;
+                    -webkit-transition: 500ms ease-out;
+                    -moz-transition:    500ms ease-out;
+                    -o-transition:      500ms ease-out;
+                    transition:         500ms ease-out;
+                }
+    h2.copyright {
+        text-align: center;
+        font-weight: 400;
+        width: 250px;
+        display: block;
+        margin: auto;
+        
+    }

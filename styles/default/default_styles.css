@@ -1,0 +1,73 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow: visible;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+.margining {
+    margin-bottom: 85px;
+}
+
+body {
+    background: #222222;
+}
+    .div {
+        display: block;
+    }
+
+div#navbar {
+    height: 85px;
+    background: rgba(16, 16, 16, 0.75);
+    min-width: 900px;
+}
+    div#navbar ul {
+        height: 85px;
+        width: 450px;
+    }
+    div#navbar ul li {
+        display: inline-block;
+    }
+    div#navbar ul li a {
+        color: white;
+        display: block;
+        height: 65px;
+        width: 85px;
+        text-align: center;
+        line-height: 60px;
+        margin: 10px;
+
+        background: rgba(16, 16, 16, 0.75);
+        -webkit-transition: 500ms ease-out;
+        -moz-transition:    500ms ease-out;
+        -o-transition:      500ms ease-out;
+        transition:         500ms ease-out;
+    }
+        div#navbar ul li a:hover {
+             background: rgb(177, 177, 177);
+            -webkit-transition: 500ms ease-out;
+            -moz-transition:    500ms ease-out;
+            -o-transition:      500ms ease-out;
+            transition:         500ms ease-out;
+            }
+    div#navbar div#logo {
+        width: 250px;
+        float: right;
+        display: inline-block;
+    }
+        div#navbar div#logo * {
+            font-weight: 400;
+            float: right;
+            display: inline-block;
+            margin: 10px;
+        }
